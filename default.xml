@@ -14,7 +14,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="CyanogenMod/android_build" remote="github">
+  <project path="build" name="blackd/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
@@ -176,7 +176,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="blackd/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
@@ -202,10 +202,7 @@
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="github" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" remote="github" />
-  <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" remote="github" />
-  <project path="packages/apps/CMUpdateNotify" name="CyanogenMod/android_packages_apps_CMUpdateNotify" remote="github" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" />
+  <project path="packages/apps/CMParts" name="blackd/android_packages_apps_CMParts" remote="github" />
   <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" remote="github" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
@@ -227,7 +224,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/Settings" name="blackd/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
